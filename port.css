@@ -1,0 +1,70 @@
+body {
+margin: 0;
+font-family: 'Segoe UI', sans-serif;
+background: linear-gradient(120deg,#020617,#0f172a);
+color: white;
+}
+
+
+header {
+display: flex;
+justify-content: space-between;
+padding: 15px 40px;
+background: rgba(0,0,0,0.6);
+position: sticky;
+top: 0;
+}
+
+
+nav a {
+margin-left: 20px;
+color: white;
+text-decoration: none;
+}
+
+
+.hero, .page {
+padding: 80px 20px;
+text-align: center;
+}
+
+
+.hero img {
+border-radius: 50%;
+animation: float 4s infinite ease-in-out;
+}
+
+
+@keyframes float {
+50% { transform: translateY(-15px); }
+}
+
+
+.btn {
+background: #38bdf8;
+padding: 10px 20px;
+border-radius: 8px;
+color: black;
+text-decoration: none;
+display: inline-block;
+margin-top: 10px;
+}
+
+
+.btn-outline {
+border: 2px solid #38bdf8;
+padding: 10px 20px;
+border-radius: 8px;
+margin-left: 10px;
+color: #38bdf8;
+text-decoration: none;
+}
+
+
+.skills-grid, .project-grid {
+display: grid;
+gap: 20px;
+max-width: 700px;
+margin: auto;
+}
+}
